@@ -34,8 +34,8 @@ if uploaded_file is not None:
     output_df = df[["Site_ID", "lat", "lon"]]
 
     # Show the result
-    st.subheader("Converted Data")
-    st.dataframe(output_df)
+    # st.subheader("Converted Data")
+    # st.dataframe(output_df)
 
     # Create a download button
     @st.cache_data
